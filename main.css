@@ -13,16 +13,12 @@ Headers
 .nav-item {
     padding-left: 4em;
     padding-right: 4em;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .navbar-brand {
     font-size: 3em;
     color: #FF5A2E !important;
     font-family: 'Mansalva', cursive;
-}
-
-
-header nav div ul li a {
-    font-family: 'Poppins', sans-serif;
-
 }

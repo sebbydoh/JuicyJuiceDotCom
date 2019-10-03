@@ -10,6 +10,18 @@ font-family: 'Josefin Sans', sans-serif;
 Headers
 */
 
+body {
+    background-color: white;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
 .nav-item {
     padding-left: 4em;
     padding-right: 4em;
@@ -21,4 +33,14 @@ Headers
     font-size: 3em;
     color: #FF5A2E !important;
     font-family: 'Mansalva', cursive;
+}
+
+footer div {
+    text-align: center;
+}
+
+.rewards-section {
+    height: 500px;
+    background-color: #FFC55C;
+
 }

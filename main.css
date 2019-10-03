@@ -3,9 +3,21 @@
 /* Google Fonts
 
 font-family: 'Mansalva', cursive;
-Paragraph
+Logo
 font-family: 'Poppins', sans-serif;
 Links
 font-family: 'Josefin Sans', sans-serif;
 Headers
 */
+
+.navbar-brand {
+    font-size: 3em;
+    color: #FF5A2E !important;
+    font-family: 'Mansalva', cursive;
+}
+
+
+header nav div ul li a {
+    font-family: 'Poppins', sans-serif;
+
+}

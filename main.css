@@ -10,6 +10,11 @@ font-family: 'Josefin Sans', sans-serif;
 Headers
 */
 
+.nav-item {
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
 .navbar-brand {
     font-size: 3em;
     color: #FF5A2E !important;

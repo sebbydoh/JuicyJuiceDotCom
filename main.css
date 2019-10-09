@@ -103,9 +103,18 @@ footer div {
 
 /* Menu */
 
+.card {
+    border-color: #FF5A2E;
+    border-width: 2px;
+}
+
 .menu {
     padding-left: 50px;
     padding-right: 50px;
+}
+
+.menu-header {
+    text-decoration: underline;
 }
 
 .menu-item {

@@ -42,10 +42,38 @@ footer div {
 
 .content-section {
     height: 500px;
-
-
 }
 
+.content-section-2 {
+    height: 700px;
+}
+
+.farmer {
+    height: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Home Page */
+.bowl {
+    height: 250px;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.terms-apply {
+    font-size: .8em;
+}
+
+.friends {
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .apple {
     height: 200px;
@@ -64,11 +92,31 @@ footer div {
     background-color: #FFF9C4;
 }
 
-.off-white {
+.matcha {
     background-color: #DCEDC8
     ;
 }
 
-.white {
+.tea {
     background-color: #FFECB3;
+}
+
+/* Menu */
+
+.menu {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.menu-item {
+    text-align: center;
+}
+
+.card {
+    float: left;
+    margin: 15px;
+}
+
+.clear {
+    clear:left;
 }

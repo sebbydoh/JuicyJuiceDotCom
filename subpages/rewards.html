@@ -16,7 +16,7 @@
 <body class="d-flex flex-column h-100">
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="../index.html">
                 <img src="../images/logo.png" width="60" height="60" class="d-inline-block align-top" alt="Home">
                 JuicyJuice
             </a>
@@ -51,24 +51,22 @@
             <div class="jumbo-center">
                 <h1 class="display-4"><span class="juicyjuice">JuicyJuice </span>Rewards</h1>
                 <p class="lead">Earn points for every purchase. Use points for discounts and free beverages.</p>
-                <a class="btn btn-primary btn-lg" href="#sign-up"  role="button">Sign Up</a>
+                <a class="btn btn-primary btn-lg" href="#sign-up" role="button">Sign Up</a>
             </div>
         </div>
         <h1 id="sign-up">Sign up</h1>
         <div class="rewards-form">
-            <form>
+            <form id="rewards-signup" action="thankyou.html" method="get">
                 <div class="form-row">
                     <div class="col">
                         <label for="first-name">First Name</label>
                         <input type="text" class="form-control" id="first-name" placeholder="First name" required>
                     </div>
                     <div class="col">
-                            <label for="last-name">Last Name</label>
+                        <label for="last-name">Last Name</label>
                         <input type="text" class="form-control" id="last-name" placeholder="Last name" required>
                     </div>
                 </div>
-            </form>
-            <form>
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="inputEmail4">Email</label>
@@ -109,13 +107,9 @@
                         </label>
                     </div>
                 </div>
-                <a type="submit" class="btn btn-primary">Sign Up</a>
+                <input type="submit" class="btn btn-primary" value="Sign Up"></input>
             </form>
         </div>
-
-
-
-
     </main>
 
     <footer class="footer mt-auto py-3">
